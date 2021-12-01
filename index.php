@@ -1,7 +1,8 @@
 <?php
 namespace Dompdf;
 ini_set('display_errors', 1);
-require_once '../librerias/dompdf/autoload.inc.php';
+require_once './dompdf/autoload.inc.php';
+//Hay que colocar archivo dompdf en la carpeta base.
 
 if (isset($_POST['_descargar_'])) {
     $elFormulario= "
